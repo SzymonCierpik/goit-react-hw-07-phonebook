@@ -23,7 +23,7 @@ const ContactForm = () => {
   return (
     <form className={styles.form} onSubmit={formSubmit}>
       <label className={styles.label}>
-        <span className={styles.labelText}>Name</span>
+        <span className={styles.labelText}></span>
         <input
           className={styles.input}
           type="text"
@@ -35,7 +35,7 @@ const ContactForm = () => {
         />
       </label>
       <label className={styles.label}>
-        <span className={styles.labelText}>Number</span>
+        <span className={styles.labelText}></span>
         <input
           className={styles.input}
           type="tel"
@@ -47,7 +47,7 @@ const ContactForm = () => {
         />
       </label>
       <button className={styles.btn} type="submit">
-        Add contact
+        Dodaj kontakt
       </button>
     </form>
   );
